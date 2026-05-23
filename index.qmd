@@ -1,0 +1,17 @@
+---
+title: "Beyond Statistical Significance"
+subtitle: "An interactive companion to the paper"
+---
+
+This website accompanies our paper on the interpretation of statistical significance in follow-on damages cases.
+
+The companion website illustrates why statistical significance should not be interpreted as a binary answer to the question of whether an economically meaningful effect exists, and how severity analysis can help courts assess which effect sizes are still plausible after observing the data.
+
+[Download the paper](paper/severity-paper.pdf)
+
+## What this companion site adds
+
+- A visual explanation of statistical significance.
+- A visual explanation of statistically insignificant results.
+- A severity-based interpretation of what can and cannot be inferred from an estimate.
+- Interactive or animated versions of the key figures from the paper.

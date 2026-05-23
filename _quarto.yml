@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Beyond Statistical Significance"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: severity.qmd
+        text: Severity explanation
+      - href: figures.qmd
+        text: Figures
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
