@@ -1,0 +1,1 @@
+Sitemap: https://peteboe.github.io/severity-companion/sitemap.xml

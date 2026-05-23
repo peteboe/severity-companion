@@ -70,6 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -97,16 +98,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./significance.html"> 
+<span class="menu-text">The problem</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./severity.html"> 
-<span class="menu-text">Severity explanation</span></a>
+<span class="menu-text">Severity</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./figures.qmd"> 
-<span class="menu-text">Figures</span></a>
+    <a class="nav-link" href="./explorer.html"> 
+<span class="menu-text">Explorer</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.qmd"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./implications.html"> 
+<span class="menu-text">Implications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Paper</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -116,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -124,22 +133,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-this-companion-site-adds" id="toc-what-this-companion-site-adds" class="nav-link active" data-scroll-target="#what-this-companion-site-adds">What this companion site adds</a></li>
+  <li><a href="#beyond-statistical-significance" id="toc-beyond-statistical-significance" class="nav-link active" data-scroll-target="#beyond-statistical-significance">Beyond Statistical Significance</a></li>
+  <li><a href="#what-this-companion-website-does" id="toc-what-this-companion-website-does" class="nav-link" data-scroll-target="#what-this-companion-website-does">What this companion website does</a></li>
+  <li><a href="#how-to-read-this-website" id="toc-how-to-read-this-website" class="nav-link" data-scroll-target="#how-to-read-this-website">How to read this website</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Beyond Statistical Significance</h1>
-<p class="subtitle lead">An interactive companion to the paper</p>
+<p class="subtitle lead">A companion website on severity analysis in follow-on damages cases</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -151,17 +162,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This website accompanies our paper on the interpretation of statistical significance in follow-on damages cases.</p>
-<p>The companion website illustrates why statistical significance should not be interpreted as a binary answer to the question of whether an economically meaningful effect exists, and how severity analysis can help courts assess which effect sizes are still plausible after observing the data.</p>
-<p><a href="paper/severity-paper.pdf">Download the paper</a></p>
-<section id="what-this-companion-site-adds" class="level2">
-<h2 class="anchored" data-anchor-id="what-this-companion-site-adds">What this companion site adds</h2>
-<ul>
-<li>A visual explanation of statistical significance.</li>
-<li>A visual explanation of statistically insignificant results.</li>
-<li>A severity-based interpretation of what can and cannot be inferred from an estimate.</li>
-<li>Interactive or animated versions of the key figures from the paper.</li>
-</ul>
+<section id="beyond-statistical-significance" class="level1 hero">
+<h1>Beyond Statistical Significance</h1>
+<p>Statistical significance is often treated as a bright line: significant estimates are taken seriously, insignificant estimates are sometimes treated as if they showed no effect.</p>
+<p>This companion website explains why that interpretation is too crude, especially in follow-on damages cases. It introduces severity analysis as a way to ask a more informative post-data question: <strong>which effect sizes remain plausible in light of the estimate actually observed?</strong></p>
+<div class="btn-row">
+<p><a href="./significance.html" class="btn btn-primary">Start with the problem</a> <a href="downloads/paper.pdf" class="btn btn-outline-secondary">Download the paper</a></p>
+</div>
+</section>
+<div class="key-message">
+<p>The central point is not simply whether an estimate is statistically significant or insignificant. The more useful question is: <strong>what does the evidence allow us to say about economically relevant effect sizes?</strong></p>
+</div>
+<section id="what-this-companion-website-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-companion-website-does">What this companion website does</h2>
+<p>This website does not duplicate the paper. It provides a visual and interactive explanation of the main ideas.</p>
+<div class="card-grid">
+<section id="the-problem" class="level3 companion-card">
+<h3 class="anchored" data-anchor-id="the-problem">1. The problem</h3>
+<p>Why “not statistically significant” does <strong>not</strong> mean “no effect”, “no harm”, or “zero overcharge”.</p>
+<p><a href="./significance.html">Go to the problem</a></p>
+</section>
+<section id="severity-analysis" class="level3 companion-card">
+<h3 class="anchored" data-anchor-id="severity-analysis">2. Severity analysis</h3>
+<p>How severity analysis asks which hypothetical effect sizes would probably have produced stronger evidence if they were true.</p>
+<p><a href="./severity.html">Go to severity</a></p>
+</section>
+<section id="explorer" class="level3 companion-card">
+<h3 class="anchored" data-anchor-id="explorer">3. Explorer</h3>
+<p>A future interactive calculator where users can vary the estimate, standard error, degrees of freedom, and hypothetical claim.</p>
+<p><a href="./explorer.html">Go to explorer</a></p>
+</section>
+<section id="legal-implications" class="level3 companion-card">
+<h3 class="anchored" data-anchor-id="legal-implications">4. Legal implications</h3>
+<p>What courts and experts should, and should not, infer from statistically insignificant estimates.</p>
+<p><a href="./implications.html">Go to implications</a></p>
+</section>
+</div>
+</section>
+<section id="how-to-read-this-website" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-this-website">How to read this website</h2>
+<p>Start with the problem page if you want the intuition. Then move to the severity page for the alternative framework. The explorer page will later allow readers to experiment with different assumptions.</p>
 
 
 </section>
@@ -240,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/peteboe\.github\.io\/severity-companion\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -568,8 +608,22 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Companion website to a paper on statistical significance and severity analysis in follow-on damages cases</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

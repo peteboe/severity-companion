@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>What severity asks instead – Beyond Statistical Significance</title>
+<title>The problem with binary significance – Beyond Statistical Significance</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -98,11 +98,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./significance.html"> 
+    <a class="nav-link active" href="./significance.html" aria-current="page"> 
 <span class="menu-text">The problem</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./severity.html" aria-current="page"> 
+    <a class="nav-link" href="./severity.html"> 
 <span class="menu-text">Severity</span></a>
   </li>  
   <li class="nav-item">
@@ -133,11 +133,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#from-rejection-to-post-data-assessment" id="toc-from-rejection-to-post-data-assessment" class="nav-link active" data-scroll-target="#from-rejection-to-post-data-assessment">From rejection to post-data assessment</a></li>
-  <li><a href="#why-this-helps" id="toc-why-this-helps" class="nav-link" data-scroll-target="#why-this-helps">Why this helps</a></li>
-  <li><a href="#the-ingredients" id="toc-the-ingredients" class="nav-link" data-scroll-target="#the-ingredients">The ingredients</a></li>
+  <li><a href="#the-binary-interpretation-problem" id="toc-the-binary-interpretation-problem" class="nav-link active" data-scroll-target="#the-binary-interpretation-problem">The binary interpretation problem</a></li>
+  <li><a href="#what-insignificance-does-not-show" id="toc-what-insignificance-does-not-show" class="nav-link" data-scroll-target="#what-insignificance-does-not-show">What insignificance does not show</a></li>
   <li><a href="#visual-intuition" id="toc-visual-intuition" class="nav-link" data-scroll-target="#visual-intuition">Visual intuition</a></li>
-  <li><a href="#core-interpretation" id="toc-core-interpretation" class="nav-link" data-scroll-target="#core-interpretation">Core interpretation</a></li>
+  <li><a href="#the-key-limitation" id="toc-the-key-limitation" class="nav-link" data-scroll-target="#the-key-limitation">The key limitation</a></li>
   </ul>
 </nav>
     </div>
@@ -146,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What severity asks instead</h1>
+<h1 class="title">The problem with binary significance</h1>
 </div>
 
 
@@ -163,41 +162,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="from-rejection-to-post-data-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="from-rejection-to-post-data-assessment">From rejection to post-data assessment</h2>
-<p>Severity analysis changes the focus. Instead of stopping at “significant” or “not significant”, it asks what the observed result tells us about particular hypothetical effect sizes.</p>
-<p>A useful way to express the severity question is:</p>
+<section id="the-binary-interpretation-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-binary-interpretation-problem">The binary interpretation problem</h2>
+<p>In damages cases, econometric evidence is often discussed in terms of whether an estimated effect is statistically significant. This can be useful, but it can also mislead.</p>
+<p>A statistically significant estimate is evidence against a specified null hypothesis, often a zero-effect hypothesis. But a statistically insignificant estimate does not prove that the effect is zero.</p>
 <div class="key-message">
-<p>Given what we observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?</p>
+<p>A statistically insignificant estimate means that the observed estimate is not sufficiently incompatible with the null hypothesis under the chosen testing rule. It does <strong>not</strong> mean that there was no effect.</p>
 </div>
 </section>
-<section id="why-this-helps" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-helps">Why this helps</h2>
-<p>Suppose an estimated overcharge is statistically insignificant. That alone does not prove that the true overcharge is zero. But the estimate may still be informative.</p>
-<p>If the estimate is precise, then large hypothetical overcharges may be difficult to reconcile with the observed result. If the estimate is imprecise, then even sizeable overcharges may remain plausible.</p>
-<p>Severity analysis therefore links the interpretation of the estimate to the uncertainty around it.</p>
-</section>
-<section id="the-ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="the-ingredients">The ingredients</h2>
-<p>A severity assessment typically requires:</p>
+<section id="what-insignificance-does-not-show" class="level2">
+<h2 class="anchored" data-anchor-id="what-insignificance-does-not-show">What insignificance does not show</h2>
+<p>A statistically insignificant estimate does not by itself establish that:</p>
 <ul>
-<li>the observed estimate;</li>
-<li>the standard error or other measure of uncertainty;</li>
-<li>the relevant test direction;</li>
-<li>the hypothetical effect size or overcharge claim;</li>
-<li>the probability of observing a result more in line with that claim if the claim were true.</li>
+<li>the true overcharge was zero;</li>
+<li>the claimant suffered no harm;</li>
+<li>economically relevant effects are implausible;</li>
+<li>the defendant’s conduct had no market impact.</li>
 </ul>
+<p>It only says that the observed evidence did not cross the chosen significance threshold.</p>
 </section>
 <section id="visual-intuition" class="level2">
 <h2 class="anchored" data-anchor-id="visual-intuition">Visual intuition</h2>
 <div class="placeholder-figure">
-<p>Static figure to add here: observed estimate, uncertainty distribution, hypothetical overcharge claim, and severity area.</p>
+<p>Static figure to add here: distribution of the estimate, null hypothesis, confidence interval, and significance threshold.</p>
 </div>
 </section>
-<section id="core-interpretation" class="level2">
-<h2 class="anchored" data-anchor-id="core-interpretation">Core interpretation</h2>
-<p>If a hypothetical overcharge would probably have produced a stronger result than the one actually observed, then the failure to observe such a stronger result counts against that hypothetical overcharge.</p>
-<p>If, however, the observed estimate would not be unusual even if the hypothetical overcharge were true, then the data do not strongly rule it out.</p>
+<section id="the-key-limitation" class="level2">
+<h2 class="anchored" data-anchor-id="the-key-limitation">The key limitation</h2>
+<p>The standard significance test asks a narrow question:</p>
+<blockquote class="blockquote">
+<p>If the null hypothesis were true, would an estimate this far from the null be unusual?</p>
+</blockquote>
+<p>That is not the same as asking:</p>
+<blockquote class="blockquote">
+<p>Which economically meaningful overcharges remain plausible after seeing this estimate?</p>
+</blockquote>
+<p>This second question is the starting point for severity analysis.</p>
 
 
 </section>

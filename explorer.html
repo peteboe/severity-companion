@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>What severity asks instead – Beyond Statistical Significance</title>
+<title>Severity explorer – Beyond Statistical Significance</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -102,11 +102,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">The problem</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./severity.html" aria-current="page"> 
+    <a class="nav-link" href="./severity.html"> 
 <span class="menu-text">Severity</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./explorer.html"> 
+    <a class="nav-link active" href="./explorer.html" aria-current="page"> 
 <span class="menu-text">Explorer</span></a>
   </li>  
   <li class="nav-item">
@@ -133,11 +133,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#from-rejection-to-post-data-assessment" id="toc-from-rejection-to-post-data-assessment" class="nav-link active" data-scroll-target="#from-rejection-to-post-data-assessment">From rejection to post-data assessment</a></li>
-  <li><a href="#why-this-helps" id="toc-why-this-helps" class="nav-link" data-scroll-target="#why-this-helps">Why this helps</a></li>
-  <li><a href="#the-ingredients" id="toc-the-ingredients" class="nav-link" data-scroll-target="#the-ingredients">The ingredients</a></li>
-  <li><a href="#visual-intuition" id="toc-visual-intuition" class="nav-link" data-scroll-target="#visual-intuition">Visual intuition</a></li>
-  <li><a href="#core-interpretation" id="toc-core-interpretation" class="nav-link" data-scroll-target="#core-interpretation">Core interpretation</a></li>
+  <li><a href="#interactive-severity-explorer" id="toc-interactive-severity-explorer" class="nav-link active" data-scroll-target="#interactive-severity-explorer">Interactive severity explorer</a></li>
+  <li><a href="#static-examples-for-now" id="toc-static-examples-for-now" class="nav-link" data-scroll-target="#static-examples-for-now">Static examples for now</a></li>
+  <li><a href="#technical-note" id="toc-technical-note" class="nav-link" data-scroll-target="#technical-note">Technical note</a></li>
   </ul>
 </nav>
     </div>
@@ -146,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What severity asks instead</h1>
+<h1 class="title">Severity explorer</h1>
 </div>
 
 
@@ -163,41 +161,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="from-rejection-to-post-data-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="from-rejection-to-post-data-assessment">From rejection to post-data assessment</h2>
-<p>Severity analysis changes the focus. Instead of stopping at “significant” or “not significant”, it asks what the observed result tells us about particular hypothetical effect sizes.</p>
-<p>A useful way to express the severity question is:</p>
-<div class="key-message">
-<p>Given what we observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?</p>
-</div>
-</section>
-<section id="why-this-helps" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-helps">Why this helps</h2>
-<p>Suppose an estimated overcharge is statistically insignificant. That alone does not prove that the true overcharge is zero. But the estimate may still be informative.</p>
-<p>If the estimate is precise, then large hypothetical overcharges may be difficult to reconcile with the observed result. If the estimate is imprecise, then even sizeable overcharges may remain plausible.</p>
-<p>Severity analysis therefore links the interpretation of the estimate to the uncertainty around it.</p>
-</section>
-<section id="the-ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="the-ingredients">The ingredients</h2>
-<p>A severity assessment typically requires:</p>
+<section id="interactive-severity-explorer" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-severity-explorer">Interactive severity explorer</h2>
+<p>This page will later become an interactive calculator.</p>
+<p>The planned version will allow readers to change:</p>
 <ul>
-<li>the observed estimate;</li>
-<li>the standard error or other measure of uncertainty;</li>
-<li>the relevant test direction;</li>
-<li>the hypothetical effect size or overcharge claim;</li>
-<li>the probability of observing a result more in line with that claim if the claim were true.</li>
+<li>observed estimate;</li>
+<li>standard error;</li>
+<li>degrees of freedom;</li>
+<li>hypothetical overcharge claim;</li>
+<li>direction of the test;</li>
+<li>significance threshold.</li>
 </ul>
-</section>
-<section id="visual-intuition" class="level2">
-<h2 class="anchored" data-anchor-id="visual-intuition">Visual intuition</h2>
+<p>The page will then return:</p>
+<ul>
+<li>the severity probability;</li>
+<li>a short verbal interpretation;</li>
+<li>a figure showing the observed estimate, uncertainty, hypothetical claim, and severity area.</li>
+</ul>
 <div class="placeholder-figure">
-<p>Static figure to add here: observed estimate, uncertainty distribution, hypothetical overcharge claim, and severity area.</p>
+<p>Placeholder for future interactive severity calculator.</p>
 </div>
 </section>
-<section id="core-interpretation" class="level2">
-<h2 class="anchored" data-anchor-id="core-interpretation">Core interpretation</h2>
-<p>If a hypothetical overcharge would probably have produced a stronger result than the one actually observed, then the failure to observe such a stronger result counts against that hypothetical overcharge.</p>
-<p>If, however, the observed estimate would not be unusual even if the hypothetical overcharge were true, then the data do not strongly rule it out.</p>
+<section id="static-examples-for-now" class="level2">
+<h2 class="anchored" data-anchor-id="static-examples-for-now">Static examples for now</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Observed estimate</th>
+<th style="text-align: right;">Standard error</th>
+<th style="text-align: right;">Hypothetical claim</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">1.5%</td>
+<td style="text-align: right;">5.0%</td>
+<td>Large effects may still be plausible if uncertainty is high.</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">0.5%</td>
+<td style="text-align: right;">5.0%</td>
+<td>A large effect may be difficult to reconcile with a precise low estimate.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4.0%</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">5.0%</td>
+<td>The observed estimate may be broadly consistent with the hypothetical claim.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="technical-note" class="level2">
+<h2 class="anchored" data-anchor-id="technical-note">Technical note</h2>
+<p>Because this website is hosted on GitHub Pages, the interactive version should be implemented as a static client-side tool, for example using JavaScript or Observable JS inside Quarto. A Shiny app would require a separate server.</p>
 
 
 </section>

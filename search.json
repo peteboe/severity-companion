@@ -1,37 +1,198 @@
 [
   {
-    "objectID": "severity.html",
-    "href": "severity.html",
-    "title": "From statistical significance to severity",
+    "objectID": "significance.html",
+    "href": "significance.html",
+    "title": "The problem with binary significance",
     "section": "",
-    "text": "A statistically insignificant estimate does not prove that there was no effect. It only means that the observed evidence was not strong enough to reject the null hypothesis."
+    "text": "In damages cases, econometric evidence is often discussed in terms of whether an estimated effect is statistically significant. This can be useful, but it can also mislead.\nA statistically significant estimate is evidence against a specified null hypothesis, often a zero-effect hypothesis. But a statistically insignificant estimate does not prove that the effect is zero.\n\nA statistically insignificant estimate means that the observed estimate is not sufficiently incompatible with the null hypothesis under the chosen testing rule. It does not mean that there was no effect."
   },
   {
-    "objectID": "severity.html#the-problem",
-    "href": "severity.html#the-problem",
-    "title": "From statistical significance to severity",
+    "objectID": "significance.html#the-binary-interpretation-problem",
+    "href": "significance.html#the-binary-interpretation-problem",
+    "title": "The problem with binary significance",
     "section": "",
-    "text": "A statistically insignificant estimate does not prove that there was no effect. It only means that the observed evidence was not strong enough to reject the null hypothesis."
+    "text": "In damages cases, econometric evidence is often discussed in terms of whether an estimated effect is statistically significant. This can be useful, but it can also mislead.\nA statistically significant estimate is evidence against a specified null hypothesis, often a zero-effect hypothesis. But a statistically insignificant estimate does not prove that the effect is zero.\n\nA statistically insignificant estimate means that the observed estimate is not sufficiently incompatible with the null hypothesis under the chosen testing rule. It does not mean that there was no effect."
   },
   {
-    "objectID": "severity.html#the-severity-question",
-    "href": "severity.html#the-severity-question",
-    "title": "From statistical significance to severity",
-    "section": "The severity question",
-    "text": "The severity question\nSeverity analysis asks a different question:\n\nGiven the estimate we actually observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?\n\nThis allows the evidence to be interpreted as a statement about the range of plausible effect sizes, rather than as a simple significant / insignificant binary.\n\n\n\nSeverity curve for the observed estimate"
+    "objectID": "significance.html#what-insignificance-does-not-show",
+    "href": "significance.html#what-insignificance-does-not-show",
+    "title": "The problem with binary significance",
+    "section": "What insignificance does not show",
+    "text": "What insignificance does not show\nA statistically insignificant estimate does not by itself establish that:\n\nthe true overcharge was zero;\nthe claimant suffered no harm;\neconomically relevant effects are implausible;\nthe defendant’s conduct had no market impact.\n\nIt only says that the observed evidence did not cross the chosen significance threshold."
+  },
+  {
+    "objectID": "significance.html#visual-intuition",
+    "href": "significance.html#visual-intuition",
+    "title": "The problem with binary significance",
+    "section": "Visual intuition",
+    "text": "Visual intuition\n\nStatic figure to add here: distribution of the estimate, null hypothesis, confidence interval, and significance threshold."
+  },
+  {
+    "objectID": "significance.html#the-key-limitation",
+    "href": "significance.html#the-key-limitation",
+    "title": "The problem with binary significance",
+    "section": "The key limitation",
+    "text": "The key limitation\nThe standard significance test asks a narrow question:\n\nIf the null hypothesis were true, would an estimate this far from the null be unusual?\n\nThat is not the same as asking:\n\nWhich economically meaningful overcharges remain plausible after seeing this estimate?\n\nThis second question is the starting point for severity analysis."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Beyond Statistical Significance",
     "section": "",
-    "text": "This website accompanies our paper on the interpretation of statistical significance in follow-on damages cases.\nThe companion website illustrates why statistical significance should not be interpreted as a binary answer to the question of whether an economically meaningful effect exists, and how severity analysis can help courts assess which effect sizes are still plausible after observing the data.\nDownload the paper"
+    "text": "Statistical significance is often treated as a bright line: significant estimates are taken seriously, insignificant estimates are sometimes treated as if they showed no effect.\nThis companion website explains why that interpretation is too crude, especially in follow-on damages cases. It introduces severity analysis as a way to ask a more informative post-data question: which effect sizes remain plausible in light of the estimate actually observed?\n\nStart with the problem Download the paper"
   },
   {
-    "objectID": "index.html#what-this-companion-site-adds",
-    "href": "index.html#what-this-companion-site-adds",
+    "objectID": "index.html#what-this-companion-website-does",
+    "href": "index.html#what-this-companion-website-does",
     "title": "Beyond Statistical Significance",
-    "section": "What this companion site adds",
-    "text": "What this companion site adds\n\nA visual explanation of statistical significance.\nA visual explanation of statistically insignificant results.\nA severity-based interpretation of what can and cannot be inferred from an estimate.\nInteractive or animated versions of the key figures from the paper."
+    "section": "What this companion website does",
+    "text": "What this companion website does\nThis website does not duplicate the paper. It provides a visual and interactive explanation of the main ideas.\n\n\n1. The problem\nWhy “not statistically significant” does not mean “no effect”, “no harm”, or “zero overcharge”.\nGo to the problem\n\n\n2. Severity analysis\nHow severity analysis asks which hypothetical effect sizes would probably have produced stronger evidence if they were true.\nGo to severity\n\n\n3. Explorer\nA future interactive calculator where users can vary the estimate, standard error, degrees of freedom, and hypothetical claim.\nGo to explorer\n\n\n4. Legal implications\nWhat courts and experts should, and should not, infer from statistically insignificant estimates.\nGo to implications"
+  },
+  {
+    "objectID": "index.html#how-to-read-this-website",
+    "href": "index.html#how-to-read-this-website",
+    "title": "Beyond Statistical Significance",
+    "section": "How to read this website",
+    "text": "How to read this website\nStart with the problem page if you want the intuition. Then move to the severity page for the alternative framework. The explorer page will later allow readers to experiment with different assumptions."
+  },
+  {
+    "objectID": "explorer.html",
+    "href": "explorer.html",
+    "title": "Severity explorer",
+    "section": "",
+    "text": "This page will later become an interactive calculator.\nThe planned version will allow readers to change:\n\nobserved estimate;\nstandard error;\ndegrees of freedom;\nhypothetical overcharge claim;\ndirection of the test;\nsignificance threshold.\n\nThe page will then return:\n\nthe severity probability;\na short verbal interpretation;\na figure showing the observed estimate, uncertainty, hypothetical claim, and severity area.\n\n\nPlaceholder for future interactive severity calculator."
+  },
+  {
+    "objectID": "explorer.html#interactive-severity-explorer",
+    "href": "explorer.html#interactive-severity-explorer",
+    "title": "Severity explorer",
+    "section": "",
+    "text": "This page will later become an interactive calculator.\nThe planned version will allow readers to change:\n\nobserved estimate;\nstandard error;\ndegrees of freedom;\nhypothetical overcharge claim;\ndirection of the test;\nsignificance threshold.\n\nThe page will then return:\n\nthe severity probability;\na short verbal interpretation;\na figure showing the observed estimate, uncertainty, hypothetical claim, and severity area.\n\n\nPlaceholder for future interactive severity calculator."
+  },
+  {
+    "objectID": "explorer.html#static-examples-for-now",
+    "href": "explorer.html#static-examples-for-now",
+    "title": "Severity explorer",
+    "section": "Static examples for now",
+    "text": "Static examples for now\n\n\n\n\n\n\n\n\n\nObserved estimate\nStandard error\nHypothetical claim\nInterpretation\n\n\n\n\n1.0%\n1.5%\n5.0%\nLarge effects may still be plausible if uncertainty is high.\n\n\n1.0%\n0.5%\n5.0%\nA large effect may be difficult to reconcile with a precise low estimate.\n\n\n4.0%\n1.0%\n5.0%\nThe observed estimate may be broadly consistent with the hypothetical claim."
+  },
+  {
+    "objectID": "explorer.html#technical-note",
+    "href": "explorer.html#technical-note",
+    "title": "Severity explorer",
+    "section": "Technical note",
+    "text": "Technical note\nBecause this website is hosted on GitHub Pages, the interactive version should be implemented as a static client-side tool, for example using JavaScript or Observable JS inside Quarto. A Shiny app would require a separate server."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Paper and downloads",
+    "section": "",
+    "text": "This website accompanies a paper on statistical significance and severity analysis in follow-on damages cases.\nDownload the paper"
+  },
+  {
+    "objectID": "about.html#paper",
+    "href": "about.html#paper",
+    "title": "Paper and downloads",
+    "section": "",
+    "text": "This website accompanies a paper on statistical significance and severity analysis in follow-on damages cases.\nDownload the paper"
+  },
+  {
+    "objectID": "about.html#citation",
+    "href": "about.html#citation",
+    "title": "Paper and downloads",
+    "section": "Citation",
+    "text": "Citation\nSuggested citation:\n\n[Author names], “Beyond Statistical Significance: Severity Analysis in Follow-on Damages Cases”, working paper."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Paper and downloads",
+    "section": "Contact",
+    "text": "Contact\nFor questions or comments, please contact the authors."
+  },
+  {
+    "objectID": "about.html#version",
+    "href": "about.html#version",
+    "title": "Paper and downloads",
+    "section": "Version",
+    "text": "Version\nThis is the first public version of the companion website. Future versions will add visual storytelling and an interactive severity calculator."
+  },
+  {
+    "objectID": "implications.html",
+    "href": "implications.html",
+    "title": "Implications for damages cases",
+    "section": "",
+    "text": "A statistically insignificant estimate should not automatically be read as evidence of no harm. In particular, courts should avoid treating insignificance as if it established that the true effect was zero.\n\nInsignificance is not proof of absence. It is a statement about the strength of the evidence against a specific null hypothesis under a specific testing procedure."
+  },
+  {
+    "objectID": "implications.html#what-courts-should-not-infer",
+    "href": "implications.html#what-courts-should-not-infer",
+    "title": "Implications for damages cases",
+    "section": "",
+    "text": "A statistically insignificant estimate should not automatically be read as evidence of no harm. In particular, courts should avoid treating insignificance as if it established that the true effect was zero.\n\nInsignificance is not proof of absence. It is a statement about the strength of the evidence against a specific null hypothesis under a specific testing procedure."
+  },
+  {
+    "objectID": "implications.html#what-courts-can-ask-instead",
+    "href": "implications.html#what-courts-can-ask-instead",
+    "title": "Implications for damages cases",
+    "section": "What courts can ask instead",
+    "text": "What courts can ask instead\nA more informative evidentiary question is:\n\nWhich overcharge magnitudes are still plausible in light of the estimate and its uncertainty?\n\nThis reframes the role of econometric evidence. The estimate is not merely classified as significant or insignificant. It is used to assess the range of effect sizes that remain compatible with the evidence."
+  },
+  {
+    "objectID": "implications.html#why-this-matters-in-follow-on-damages-cases",
+    "href": "implications.html#why-this-matters-in-follow-on-damages-cases",
+    "title": "Implications for damages cases",
+    "section": "Why this matters in follow-on damages cases",
+    "text": "Why this matters in follow-on damages cases\nIn follow-on damages cases, courts often need to assess whether an infringement caused harm and, if so, the likely magnitude of that harm.\nA binary significance threshold does not answer that question. Severity analysis helps connect the statistical evidence to the substantive damages question by focusing on economically relevant effect sizes."
+  },
+  {
+    "objectID": "implications.html#practical-implications",
+    "href": "implications.html#practical-implications",
+    "title": "Implications for damages cases",
+    "section": "Practical implications",
+    "text": "Practical implications\nSeverity analysis can help courts and experts:\n\navoid the fallacy that insignificance proves no effect;\ndistinguish imprecise evidence from evidence against a large effect;\nassess whether a specific damages claim is consistent with the observed estimate;\nexplain the evidential meaning of statistically insignificant results more transparently."
+  },
+  {
+    "objectID": "severity.html",
+    "href": "severity.html",
+    "title": "What severity asks instead",
+    "section": "",
+    "text": "Severity analysis changes the focus. Instead of stopping at “significant” or “not significant”, it asks what the observed result tells us about particular hypothetical effect sizes.\nA useful way to express the severity question is:\n\nGiven what we observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?"
+  },
+  {
+    "objectID": "severity.html#from-rejection-to-post-data-assessment",
+    "href": "severity.html#from-rejection-to-post-data-assessment",
+    "title": "What severity asks instead",
+    "section": "",
+    "text": "Severity analysis changes the focus. Instead of stopping at “significant” or “not significant”, it asks what the observed result tells us about particular hypothetical effect sizes.\nA useful way to express the severity question is:\n\nGiven what we observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?"
+  },
+  {
+    "objectID": "severity.html#why-this-helps",
+    "href": "severity.html#why-this-helps",
+    "title": "What severity asks instead",
+    "section": "Why this helps",
+    "text": "Why this helps\nSuppose an estimated overcharge is statistically insignificant. That alone does not prove that the true overcharge is zero. But the estimate may still be informative.\nIf the estimate is precise, then large hypothetical overcharges may be difficult to reconcile with the observed result. If the estimate is imprecise, then even sizeable overcharges may remain plausible.\nSeverity analysis therefore links the interpretation of the estimate to the uncertainty around it."
+  },
+  {
+    "objectID": "severity.html#the-ingredients",
+    "href": "severity.html#the-ingredients",
+    "title": "What severity asks instead",
+    "section": "The ingredients",
+    "text": "The ingredients\nA severity assessment typically requires:\n\nthe observed estimate;\nthe standard error or other measure of uncertainty;\nthe relevant test direction;\nthe hypothetical effect size or overcharge claim;\nthe probability of observing a result more in line with that claim if the claim were true."
+  },
+  {
+    "objectID": "severity.html#visual-intuition",
+    "href": "severity.html#visual-intuition",
+    "title": "What severity asks instead",
+    "section": "Visual intuition",
+    "text": "Visual intuition\n\nStatic figure to add here: observed estimate, uncertainty distribution, hypothetical overcharge claim, and severity area."
+  },
+  {
+    "objectID": "severity.html#core-interpretation",
+    "href": "severity.html#core-interpretation",
+    "title": "What severity asks instead",
+    "section": "Core interpretation",
+    "text": "Core interpretation\nIf a hypothetical overcharge would probably have produced a stronger result than the one actually observed, then the failure to observe such a stronger result counts against that hypothetical overcharge.\nIf, however, the observed estimate would not be unusual even if the hypothetical overcharge were true, then the data do not strongly rule it out."
   }
 ]
