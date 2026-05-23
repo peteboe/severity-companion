@@ -1,0 +1,42 @@
+---
+title: "The problem with binary significance"
+---
+
+## The binary interpretation problem
+
+In damages cases, econometric evidence is often discussed in terms of whether an estimated effect is statistically significant. This can be useful, but it can also mislead.
+
+A statistically significant estimate is evidence against a specified null hypothesis, often a zero-effect hypothesis. But a statistically insignificant estimate does not prove that the effect is zero.
+
+::: {.key-message}
+A statistically insignificant estimate means that the observed estimate is not sufficiently incompatible with the null hypothesis under the chosen testing rule. It does **not** mean that there was no effect.
+:::
+
+## What insignificance does not show
+
+A statistically insignificant estimate does not by itself establish that:
+
+- the true overcharge was zero;
+- the claimant suffered no harm;
+- economically relevant effects are implausible;
+- the defendant’s conduct had no market impact.
+
+It only says that the observed evidence did not cross the chosen significance threshold.
+
+## Visual intuition
+
+::: {.placeholder-figure}
+Static figure to add here: distribution of the estimate, null hypothesis, confidence interval, and significance threshold.
+:::
+
+## The key limitation
+
+The standard significance test asks a narrow question:
+
+> If the null hypothesis were true, would an estimate this far from the null be unusual?
+
+That is not the same as asking:
+
+> Which economically meaningful overcharges remain plausible after seeing this estimate?
+
+This second question is the starting point for severity analysis.

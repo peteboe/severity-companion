@@ -3,19 +3,27 @@ project:
 
 website:
   title: "Beyond Statistical Significance"
+  site-url: "https://peteboe.github.io/severity-companion/"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: significance.qmd
+        text: The problem
       - href: severity.qmd
-        text: Severity explanation
-      - href: figures.qmd
-        text: Figures
+        text: Severity
+      - href: explorer.qmd
+        text: Explorer
+      - href: implications.qmd
+        text: Implications
       - href: about.qmd
-        text: About
+        text: Paper
+  page-footer:
+    center: "Companion website to a paper on statistical significance and severity analysis in follow-on damages cases"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    smooth-scroll: true

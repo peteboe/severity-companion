@@ -1,17 +1,43 @@
 ---
-title: "From statistical significance to severity"
+title: "What severity asks instead"
 ---
 
-## The problem
+## From rejection to post-data assessment
 
-A statistically insignificant estimate does not prove that there was no effect. It only means that the observed evidence was not strong enough to reject the null hypothesis.
+Severity analysis changes the focus. Instead of stopping at “significant” or “not significant”, it asks what the observed result tells us about particular hypothetical effect sizes.
 
-## The severity question
+A useful way to express the severity question is:
 
-Severity analysis asks a different question:
+::: {.key-message}
+Given what we observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?
+:::
 
-> Given the estimate we actually observed, which hypothetical effect sizes would probably have produced a stronger result if they were true?
+## Why this helps
 
-This allows the evidence to be interpreted as a statement about the range of plausible effect sizes, rather than as a simple significant / insignificant binary.
+Suppose an estimated overcharge is statistically insignificant. That alone does not prove that the true overcharge is zero. But the estimate may still be informative.
 
-![Severity curve for the observed estimate](figures/figure_severity.png)
+If the estimate is precise, then large hypothetical overcharges may be difficult to reconcile with the observed result. If the estimate is imprecise, then even sizeable overcharges may remain plausible.
+
+Severity analysis therefore links the interpretation of the estimate to the uncertainty around it.
+
+## The ingredients
+
+A severity assessment typically requires:
+
+- the observed estimate;
+- the standard error or other measure of uncertainty;
+- the relevant test direction;
+- the hypothetical effect size or overcharge claim;
+- the probability of observing a result more in line with that claim if the claim were true.
+
+## Visual intuition
+
+::: {.placeholder-figure}
+Static figure to add here: observed estimate, uncertainty distribution, hypothetical overcharge claim, and severity area.
+:::
+
+## Core interpretation
+
+If a hypothetical overcharge would probably have produced a stronger result than the one actually observed, then the failure to observe such a stronger result counts against that hypothetical overcharge.
+
+If, however, the observed estimate would not be unusual even if the hypothetical overcharge were true, then the data do not strongly rule it out.

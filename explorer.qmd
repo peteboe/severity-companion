@@ -1,0 +1,38 @@
+---
+title: "Severity explorer"
+---
+
+## Interactive severity explorer
+
+This page will later become an interactive calculator.
+
+The planned version will allow readers to change:
+
+- observed estimate;
+- standard error;
+- degrees of freedom;
+- hypothetical overcharge claim;
+- direction of the test;
+- significance threshold.
+
+The page will then return:
+
+- the severity probability;
+- a short verbal interpretation;
+- a figure showing the observed estimate, uncertainty, hypothetical claim, and severity area.
+
+::: {.placeholder-figure}
+Placeholder for future interactive severity calculator.
+:::
+
+## Static examples for now
+
+| Observed estimate | Standard error | Hypothetical claim | Interpretation |
+|---:|---:|---:|---|
+| 1.0% | 1.5% | 5.0% | Large effects may still be plausible if uncertainty is high. |
+| 1.0% | 0.5% | 5.0% | A large effect may be difficult to reconcile with a precise low estimate. |
+| 4.0% | 1.0% | 5.0% | The observed estimate may be broadly consistent with the hypothetical claim. |
+
+## Technical note
+
+Because this website is hosted on GitHub Pages, the interactive version should be implemented as a static client-side tool, for example using JavaScript or Observable JS inside Quarto. A Shiny app would require a separate server.

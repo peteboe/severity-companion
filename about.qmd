@@ -1,0 +1,23 @@
+---
+title: "Paper and downloads"
+---
+
+## Paper
+
+This website accompanies a paper on statistical significance and severity analysis in follow-on damages cases.
+
+[Download the paper](downloads/paper.pdf){.btn .btn-primary}
+
+## Citation
+
+Suggested citation:
+
+> [Author names], “Beyond Statistical Significance: Severity Analysis in Follow-on Damages Cases”, working paper.
+
+## Contact
+
+For questions or comments, please contact the authors.
+
+## Version
+
+This is the first public version of the companion website. Future versions will add visual storytelling and an interactive severity calculator.

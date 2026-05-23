@@ -1,0 +1,34 @@
+---
+title: "Implications for damages cases"
+---
+
+## What courts should not infer
+
+A statistically insignificant estimate should not automatically be read as evidence of no harm. In particular, courts should avoid treating insignificance as if it established that the true effect was zero.
+
+::: {.key-message}
+Insignificance is not proof of absence. It is a statement about the strength of the evidence against a specific null hypothesis under a specific testing procedure.
+:::
+
+## What courts can ask instead
+
+A more informative evidentiary question is:
+
+> Which overcharge magnitudes are still plausible in light of the estimate and its uncertainty?
+
+This reframes the role of econometric evidence. The estimate is not merely classified as significant or insignificant. It is used to assess the range of effect sizes that remain compatible with the evidence.
+
+## Why this matters in follow-on damages cases
+
+In follow-on damages cases, courts often need to assess whether an infringement caused harm and, if so, the likely magnitude of that harm.
+
+A binary significance threshold does not answer that question. Severity analysis helps connect the statistical evidence to the substantive damages question by focusing on economically relevant effect sizes.
+
+## Practical implications
+
+Severity analysis can help courts and experts:
+
+- avoid the fallacy that insignificance proves no effect;
+- distinguish imprecise evidence from evidence against a large effect;
+- assess whether a specific damages claim is consistent with the observed estimate;
+- explain the evidential meaning of statistically insignificant results more transparently.

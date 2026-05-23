@@ -1,17 +1,66 @@
 ---
 title: "Beyond Statistical Significance"
-subtitle: "An interactive companion to the paper"
+subtitle: "A companion website on severity analysis in follow-on damages cases"
+page-layout: full
 ---
 
-This website accompanies our paper on the interpretation of statistical significance in follow-on damages cases.
+::: {.hero}
+# Beyond Statistical Significance
 
-The companion website illustrates why statistical significance should not be interpreted as a binary answer to the question of whether an economically meaningful effect exists, and how severity analysis can help courts assess which effect sizes are still plausible after observing the data.
+Statistical significance is often treated as a bright line: significant estimates are taken seriously, insignificant estimates are sometimes treated as if they showed no effect.
 
-[Download the paper](paper/severity-paper.pdf)
+This companion website explains why that interpretation is too crude, especially in follow-on damages cases. It introduces severity analysis as a way to ask a more informative post-data question: **which effect sizes remain plausible in light of the estimate actually observed?**
 
-## What this companion site adds
+::: {.btn-row}
+[Start with the problem](significance.qmd){.btn .btn-primary}
+[Download the paper](downloads/paper.pdf){.btn .btn-outline-secondary}
+:::
+:::
 
-- A visual explanation of statistical significance.
-- A visual explanation of statistically insignificant results.
-- A severity-based interpretation of what can and cannot be inferred from an estimate.
-- Interactive or animated versions of the key figures from the paper.
+::: {.key-message}
+The central point is not simply whether an estimate is statistically significant or insignificant. The more useful question is: **what does the evidence allow us to say about economically relevant effect sizes?**
+:::
+
+## What this companion website does
+
+This website does not duplicate the paper. It provides a visual and interactive explanation of the main ideas.
+
+::: {.card-grid}
+
+::: {.companion-card}
+### 1. The problem
+
+Why “not statistically significant” does **not** mean “no effect”, “no harm”, or “zero overcharge”.
+
+[Go to the problem](significance.qmd)
+:::
+
+::: {.companion-card}
+### 2. Severity analysis
+
+How severity analysis asks which hypothetical effect sizes would probably have produced stronger evidence if they were true.
+
+[Go to severity](severity.qmd)
+:::
+
+::: {.companion-card}
+### 3. Explorer
+
+A future interactive calculator where users can vary the estimate, standard error, degrees of freedom, and hypothetical claim.
+
+[Go to explorer](explorer.qmd)
+:::
+
+::: {.companion-card}
+### 4. Legal implications
+
+What courts and experts should, and should not, infer from statistically insignificant estimates.
+
+[Go to implications](implications.qmd)
+:::
+
+:::
+
+## How to read this website
+
+Start with the problem page if you want the intuition. Then move to the severity page for the alternative framework. The explorer page will later allow readers to experiment with different assumptions.
